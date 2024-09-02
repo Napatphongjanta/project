@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="product.php">เพิ่มข้อมูลสินค้า</a>
+                    <a class="nav-link active" aria-current="page" href="product.php">จัดการข้อมูลสินค้า</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#"></a>
