@@ -36,10 +36,7 @@ $conn = connectDB();
                         <td><?php echo $row['category_id']; ?></td>
                         <td><?php echo $row['unit_price']; ?></td>
                         <td><?php echo $row['quantity_in_stock']; ?></td>
-                        <td>
-                            <a href="?action=edit&id=<?php echo $row['product_id']; ?>" class="btn btn-warning btn-sm">Edit</a>
-                            <a href="?action=delete&id=<?php echo $row['product_id']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</a>
-                        </td>
+                       
                     </tr>
                 <?php endwhile;
             else : ?>
